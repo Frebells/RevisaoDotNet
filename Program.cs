@@ -44,7 +44,7 @@ namespace Revisao
                             {
                                 Console.WriteLine($"ALUNO: {a.Nome} - NOTA: {a.Nota}");
                             }
-                        }
+                        } 
 
                         break;
 
@@ -53,7 +53,7 @@ namespace Revisao
                         decimal NotaTotal = 0;
                         var nrAlunos = 0;
 
-                        for (int i; i < alunos.Length; i++)
+                        for (int i=0; i < alunos.Length; i++)
                         {
                             if (!string.IsNullOrEmpty(alunos[i].Nome))
                             {
@@ -63,7 +63,8 @@ namespace Revisao
                         }
 
                         var mediaGeral = NotaTotal / nrAlunos;
-                        Console.WriteLine($"Media Geral: {mediaGeral}")                       
+                        Console.WriteLine($"Media Geral: {mediaGeral}");
+
                         break;
 
                     default:
