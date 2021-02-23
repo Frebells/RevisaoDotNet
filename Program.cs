@@ -40,7 +40,7 @@ namespace Revisao
                         
                         foreach(var a in alunos)
                         {
-                            if (!a.Nome.Equals(""))
+                            if (!string.IsNullOrEmpty(a.Nome))
                             {
                                 Console.WriteLine($"ALUNO: {a.Nome} - NOTA: {a.Nota}");
                             }
