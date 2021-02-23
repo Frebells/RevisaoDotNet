@@ -40,8 +40,12 @@ namespace Revisao
                         
                         foreach(var a in alunos)
                         {
-                            Console.WriteLine($"ALUNO: {a.Nome} - NOTA: {a.Nota}");
+                            if (!a.Nome.Equals(""))
+                            {
+                                Console.WriteLine($"ALUNO: {a.Nome} - NOTA: {a.Nota}");
+                            }
                         }
+
                         break;
 
                     case "3":
