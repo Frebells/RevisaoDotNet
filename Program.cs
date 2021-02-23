@@ -31,6 +31,7 @@ namespace Revisao
                 }
                 
                 opcaoUsuario = ObterOpcaoUsuario();
+                Console.WriteLine();    
             }
 
         }
