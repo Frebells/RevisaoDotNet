@@ -28,10 +28,9 @@ namespace Revisao
                     default:
 
                         throw new ArgumentOutOfRangeException();
-
-                        opcaoUsuario = ObterOpcaoUsuario();
-
                 }
+                
+                opcaoUsuario = ObterOpcaoUsuario();
             }
 
         }
