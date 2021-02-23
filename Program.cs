@@ -5,7 +5,10 @@ namespace Revisao
     class Program
     {
         static void Main(string[] args)
-        {
+        {   
+            Aluno[] alunos = new Aluno[5];
+            var IndiceAluno = 0;
+
             string opcaoUsuario = ObterOpcaoUsuario();
 
             while (opcaoUsuario.ToUpper() != "X")
@@ -14,6 +17,22 @@ namespace Revisao
                 {
                     case "1":
                         //Adicionar aluno
+                        Console.WriteLine("Informe o nome do Aluno:");
+                        Aluno aluno = new Aluno();
+                        aluno.Nome = Console.ReadLine();
+
+                        Console.WriteLine("Iforme a nota do aluno:");
+
+                       if (decimal.TryParse(Console.ReadLine(), out decimal nota))
+                       {
+                        aluno.Nota = nota;
+                       }
+                       else 
+                       {
+                           throw new ArgumentException("O valor da nota deve ser decimal")
+                       }
+                       alunos[IndiceAluno] = aluno;
+                       IndiceAluno++;
 
                         break;
 
