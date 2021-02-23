@@ -29,7 +29,7 @@ namespace Revisao
                        }
                        else 
                        {
-                           throw new ArgumentException("O valor da nota deve ser decimal")
+                           throw new ArgumentException("O valor da nota deve ser decimal");
                        }
                        alunos[IndiceAluno] = aluno;
                        IndiceAluno++;
@@ -37,7 +37,11 @@ namespace Revisao
                         break;
 
                     case "2":
-                        //Listar aluno
+                        
+                        foreach(var a in alunos)
+                        {
+                            Console.WriteLine($"ALUNO: {a.Nome} - NOTA: {a.Nota}");
+                        }
                         break;
 
                     case "3":
@@ -57,6 +61,7 @@ namespace Revisao
 
         private static string ObterOpcaoUsuario()
         {
+            Console.WriteLine();
             Console.WriteLine("Informe a opcao desejada:");
             Console.WriteLine("1 -Inserir novo aluno");
             Console.WriteLine("2 - Listar alunos");
