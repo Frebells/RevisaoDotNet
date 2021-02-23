@@ -26,7 +26,7 @@ namespace Revisao
                         break;
 
                     default:
-                    
+                     
                         throw new ArgumentOutOfRangeException();
                 }
                 
