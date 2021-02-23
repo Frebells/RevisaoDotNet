@@ -8,3 +8,9 @@ C:\DotNet\Revisao\obj\Debug\net5.0\Revisao.csproj.CoreCompileInputs.cache
 C:\DotNet\Revisao\obj\Debug\net5.0\Revisao.dll
 C:\DotNet\Revisao\obj\Debug\net5.0\ref\Revisao.dll
 C:\DotNet\Revisao\obj\Debug\net5.0\Revisao.pdb
+C:\DotNet\Revisao\bin\Debug\net5.0\Revisao.deps.json
+C:\DotNet\Revisao\bin\Debug\net5.0\Revisao.runtimeconfig.json
+C:\DotNet\Revisao\bin\Debug\net5.0\Revisao.runtimeconfig.dev.json
+C:\DotNet\Revisao\bin\Debug\net5.0\ref\Revisao.dll
+C:\DotNet\Revisao\bin\Debug\net5.0\Revisao.pdb
+C:\DotNet\Revisao\obj\Debug\net5.0\Revisao.genruntimeconfig.cache
