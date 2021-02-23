@@ -29,7 +29,7 @@ namespace Revisao
 
                         throw new ArgumentOutOfRangeException();
 
-                        string opcaoUsuario = ObterOpcaoUsuario();
+                        opcaoUsuario = ObterOpcaoUsuario();
 
                 }
             }
